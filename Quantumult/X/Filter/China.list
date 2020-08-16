@@ -277,7 +277,7 @@ DOMAIN-SUFFIX,wiley.com,DIRECT
 DOMAIN-SUFFIX,worldbank.org,DIRECT
 DOMAIN-SUFFIX,worldscientific.com,DIRECT
 # > Other
-DOMAIN-SUFFIX,cn,DIRECT
+#DOMAIN-SUFFIX,cn,DIRECT
 DOMAIN-SUFFIX,360in.com,DIRECT
 DOMAIN-SUFFIX,51ym.me,DIRECT
 DOMAIN-SUFFIX,8686c.com,DIRECT
@@ -395,4 +395,10 @@ DOMAIN,cdn.angruo.com,DIRECT
 IP-CIDR,119.28.28.28/32,DIRECT
 IP-CIDR,182.254.116.0/24,DIRECT
 # GeoIP China
-GEOIP,CN,DIRECT
+#GEOIP,CN,DIRECT
+host, community-new.321mh.com, reject
+host-suffix, mob.com, reject
+host, ads.api.vungle.com, reject
+host-suffix, ap-southeast-1.amazonaws.com, reject
+host, googleads.g.doubleclick.net, reject
+host-suffix, adserver-ad.321mh.com, reject
